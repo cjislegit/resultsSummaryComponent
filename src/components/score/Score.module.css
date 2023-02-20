@@ -1,3 +1,35 @@
 .scoreContainer {
-    background-color: hsl(241, 81%, 54%);
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  color: white;
+  border-radius: 0 0 30px 30px;
+  padding: 40px 55px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.score {
+  background-image: linear-gradient(
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  border-radius: 70%;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.score div:first-child {
+  font-weight: 800;
+  font-size: 3em;
+}
+
+.result {
+  font-weight: 700;
+  margin-bottom: 10px;
 }
