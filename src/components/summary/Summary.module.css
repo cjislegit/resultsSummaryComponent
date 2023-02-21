@@ -1,0 +1,32 @@
+.summaryContainer {
+  padding: 20px 30px;
+}
+
+.title {
+  text-align: start;
+  font-weight: 700;
+  font-size: larger;
+}
+
+.scores {
+  padding-top: 20px;
+}
+
+.score {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.red {
+  background-color: hsl(0, 100%, 50%);
+}
+.yellow {
+  background-color: hsl(60, 100%, 50%);
+}
+.green {
+  background-color: hsl(147, 50%, 47%);
+}
+.blue {
+  background-color: hsl(240, 100%, 50%);
+}
