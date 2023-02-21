@@ -48,3 +48,12 @@
 .summary {
   color: hsl(241, 100%, 89%);
 }
+
+/* Desktop Styles */
+
+@media only screen and (min-width: 731px) {
+  .scoreContainer {
+    max-width: 50%;
+    border-radius: 30px 30px;
+  }
+}
