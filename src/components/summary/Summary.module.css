@@ -16,17 +16,57 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 15px 20px;
+}
+
+.score div {
+  display: flex;
+  align-items: center;
+}
+
+.score div img {
+  margin-right: 10px;
+}
+
+.score div span:first-child {
+  color: hsl(224, 30%, 27%);
+  margin-right: 0.5em;
+}
+
+.score div span:last-child {
+  color: hsl(224, 30%, 27%, 0.3);
 }
 
 .red {
-  background-color: hsl(0, 100%, 50%);
+  background-color: hsl(0, 100%, 67%, 0.05);
 }
+
+.red div:first-child {
+  color: hsl(0, 100%, 67%);
+}
+
 .yellow {
-  background-color: hsl(60, 100%, 50%);
+  background-color: hsl(39, 100%, 56%, 0.1);
 }
+
+.yellow div:first-child {
+  color: hsl(39, 100%, 56%);
+}
+
 .green {
-  background-color: hsl(147, 50%, 47%);
+  background-color: hsl(166, 100%, 37%, 0.05);
 }
+
+.green div:first-child {
+  color: hsl(166, 100%, 37%);
+}
+
 .blue {
-  background-color: hsl(240, 100%, 50%);
+  background-color: hsl(234, 85%, 45%, 0.05);
+}
+
+.blue div:first-child {
+  color: hsl(234, 85%, 45%);
 }
