@@ -13,3 +13,14 @@ body {
   align-items: center;
   height: 100vh;
 }
+
+#root {
+  height: 100vh;
+}
+
+@media only screen and (min-width: 731px) {
+  #root {
+    display: flex;
+    align-items: center;
+  }
+}
