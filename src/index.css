@@ -1,12 +1,15 @@
 @font-face {
-  font-family: "Hank";   /*Can be any text*/
-  src: local("HankenGrotesk-VariableFont_wght"),
-    url("./assets/fonts/HankenGrotesk-VariableFont_wght.ttf") format("truetype");
+  font-family: 'Hank'; /*Can be any text*/
+  src: local('HankenGrotesk-VariableFont_wght'),
+    url('./assets/fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
 }
-
 
 body {
   margin: 0;
-  font-family: "Hank";
+  font-family: 'Hank';
   font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
