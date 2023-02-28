@@ -29,10 +29,10 @@ A reactive componet that displays data from a json file.
 
 ![Screenshot of website](/src/assets/screenshot.png)
 
-<!-- ### Links
+### Links
 
-- [Solution](https://www.codementor.io/project-solutions/e9zt6mreoc)
-- [Live Site](https://hidden-cliffs-05435.herokuapp.com/) -->
+- [Solution](https://www.frontendmentor.io/solutions/result-summary-component-using-react-goqzBcxZpZ)
+- [Live Site](https://results-summary-component-amber.vercel.app/)
 
 ### Author
 
