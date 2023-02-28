@@ -1,7 +1,5 @@
 # Simple Web Contact Form
 
-This is my solution to the [Simple Web Contact Form](https://www.codementor.io/projects/web/create-a-contact-form-b2n9ltrdy1) project from DevProjects.
-
 ## Table of Contents
 
 - [Overview](#overview)
